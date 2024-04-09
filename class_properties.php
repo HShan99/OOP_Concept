@@ -36,6 +36,7 @@ print_r($object_vars) ;
 echo "</pre>";
 
 echo "<br><br><br>";
+
 if(property_exists('Employee','first_name')){
     echo "First name in the Employee class";
 }
